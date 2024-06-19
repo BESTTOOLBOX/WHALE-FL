@@ -75,16 +75,43 @@ Ensure that the datasets (e.g., CIFAR10, MNIST, WikeText2, HAR) are available an
 
 ## Additional Information
 
-The "device_list_example.csv" file provides examples of communication and computation times for various clients in the CNN@MNIST task. This can be used to understand and optimize the performance of federated learning tasks.
+Here provides examples of communication and computation times for various clients in the CNN@MNIST task. This can be used to understand and optimize the performance of federated learning tasks.
 
-ID	Device	Communication Rate (Mbps)	Communication Time (s)
-1	MacBookPro2018	80	0.1544
-2	Xavier	40	0.3088
-3	TX2	20	0.6176
-4	Nano	15	0.823466667
-5	ResberryPi	15	0.823466667
-![image](https://github.com/BESTTOOLBOX/WHALE-FL/assets/22745820/d6b289c5-c75a-41ff-94eb-2606ac2112a6)
+| ID  | Device         | Communication Rate (Mbps) | Communication Time (s) |
+| --- | -------------- | ------------------------ | --------------------- |
+| 1   | MacBookPro2018 | 80                       | 0.1544                |
+| 2   | Xavier         | 40                       | 0.3088                |
+| 3   | TX2            | 20                       | 0.6176                |
+| 4   | Nano           | 15                       | 0.823466667           |
+| 5   | ResberryPi     | 15                       | 0.823466667           |
 
+| ID  | Device         | Model Rate | Computation Time (s/1 iter gd) |
+| --- | -------------- | ---------- | ------------------------------ |
+| 1   | MacBookPro2018 | 1          | 0.0083647                      |
+|     |                | 0.5        | 0.0038257                      |
+|     |                | 0.25       | 0.0021069                      |
+|     |                | 0.125      | 0.0014589                      |
+|     |                | 0.0625     | 0.0009867                      |
+| 2   | Xavier         | 1          | 0.04070369                     |
+|     |                | 0.5        | 0.0127832                      |
+|     |                | 0.25       | 0.0057802                      |
+|     |                | 0.125      | 0.003491786                    |
+|     |                | 0.0625     | 0.002557199                    |
+| 3   | TX2            | 1          | 0.046046102                    |
+|     |                | 0.5        | 0.014587217                    |
+|     |                | 0.25       | 0.006172761                    |
+|     |                | 0.125      | 0.003529953                    |
+|     |                | 0.0625     | 0.002453266                    |
+| 4   | Nano           | 1          | 0.048899315                    |
+|     |                | 0.5        | 0.015707265                    |
+|     |                | 0.25       | 0.006548797                    |
+|     |                | 0.125      | 0.003732                       |
+|     |                | 0.0625     | 0.002509417                    |
+| 5   | ResberryPi     | 1          | 0.051820623                    |
+|     |                | 0.5        | 0.016849187                    |
+|     |                | 0.25       | 0.006933952                    |
+|     |                | 0.125      | 0.003939243                    |
+|     |                | 0.0625     | 0.002569063                    |
 
 ## License
 This project is currently non-licensed.
