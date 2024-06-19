@@ -77,5 +77,14 @@ Ensure that the datasets (e.g., CIFAR10, MNIST, WikeText2, HAR) are available an
 
 The "device_list_example.csv" file provides examples of communication and computation times for various clients in the CNN@MNIST task. This can be used to understand and optimize the performance of federated learning tasks.
 
+ID	Device	Communication Rate (Mbps)	Communication Time (s)
+1	MacBookPro2018	80	0.1544
+2	Xavier	40	0.3088
+3	TX2	20	0.6176
+4	Nano	15	0.823466667
+5	ResberryPi	15	0.823466667
+![image](https://github.com/BESTTOOLBOX/WHALE-FL/assets/22745820/d6b289c5-c75a-41ff-94eb-2606ac2112a6)
+
+
 ## License
 This project is currently non-licensed.
