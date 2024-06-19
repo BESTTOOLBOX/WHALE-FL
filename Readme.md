@@ -1,4 +1,5 @@
 # WHALE-FL
+WHALE-FL: Wireless and Heterogeneity Aware Latency Efficient Federated Learning over Mobile Devices via Adaptive Subnetwork Scheduling
 
 ![WHALE](https://github.com/BESTTOOLBOX/WHALE-FL/assets/22745820/dd874644-f4b5-43bc-abf1-1c95bfb56654)
 
