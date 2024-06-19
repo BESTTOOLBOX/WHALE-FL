@@ -1,5 +1,7 @@
 # WHALE-FL
 
+![WHALE](https://github.com/BESTTOOLBOX/WHALE-FL/assets/22745820/dd874644-f4b5-43bc-abf1-1c95bfb56654)
+
 ## Overview
 
 Due to permission issues, this code repository is still being optimized and updated. The staged versions are not the final versions.
